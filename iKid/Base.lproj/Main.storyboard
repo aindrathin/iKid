@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E9q-xy-clr">
-    <device id="retina4_7" orientation="landscape">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,17 +16,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I can cut wood just by looking at it." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Fa-fn-osd" userLabel="DadJoke">
-                                <rect key="frame" x="201.5" y="177" width="264" height="21"/>
+                                <rect key="frame" x="55.5" y="323" width="264" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wr3-Pa-JfB">
-                                <rect key="frame" x="617" y="313" width="30" height="30"/>
+                                <rect key="frame" x="329" y="588" width="30" height="30"/>
                                 <state key="normal" title="next"/>
                                 <connections>
                                     <segue destination="Dsz-dR-lK0" kind="show" id="ujx-PV-8EZ"/>
@@ -53,17 +53,17 @@
             <objects>
                 <viewController id="Dsz-dR-lK0" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mdE-YC-SZs">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I saw it with my own eyes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tg9-eZ-Jso">
-                                <rect key="frame" x="237" y="177" width="193" height="21"/>
+                                <rect key="frame" x="91" y="323" width="193" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBu-Ab-2jw">
-                                <rect key="frame" x="20" y="325" width="34" height="30"/>
+                                <rect key="frame" x="16" y="617" width="34" height="30"/>
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <segue destination="E9q-xy-clr" kind="show" id="Ksf-Zv-TrD"/>
@@ -89,17 +89,17 @@
             <objects>
                 <viewController id="BON-Yh-ufw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nXV-4v-3o9">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do you call an alligator in a vest?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3q-B1-FRG" userLabel="PunJoke">
-                                <rect key="frame" x="187.5" y="177" width="292" height="21"/>
+                                <rect key="frame" x="41.5" y="323" width="292" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMh-vc-5gM">
-                                <rect key="frame" x="617" y="313" width="30" height="30"/>
+                                <rect key="frame" x="329" y="588" width="30" height="30"/>
                                 <state key="normal" title="next"/>
                                 <connections>
                                     <segue destination="sbG-2g-XMb" kind="show" id="NOe-0u-kD0"/>
@@ -126,18 +126,18 @@
             <objects>
                 <viewController id="sbG-2g-XMb" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="00L-YT-5a4">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alligator copy.jpg" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z12-Z8-51I">
-                                <rect key="frame" x="67" y="71" width="533" height="233"/>
+                                <rect key="frame" x="67" y="217" width="241" height="233"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="241" id="HAN-KL-LpV"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="233" id="fgW-C9-OYr"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JwI-XC-tM2">
-                                <rect key="frame" x="22" y="325" width="34" height="30"/>
+                                <rect key="frame" x="22" y="617" width="34" height="30"/>
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <segue destination="E9q-xy-clr" kind="show" id="kqt-vz-S4Y"/>
@@ -165,11 +165,11 @@
             <objects>
                 <viewController id="ZAn-K9-fu8" customClass="GoodView" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LbV-k9-Gnx">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTW-UI-ays">
-                                <rect key="frame" x="617" y="313" width="30" height="30"/>
+                                <rect key="frame" x="329" y="588" width="30" height="30"/>
                                 <state key="normal" title="next"/>
                                 <connections>
                                     <action selector="nextButton:" destination="ZAn-K9-fu8" eventType="touchUpInside" id="iEb-yU-sfB"/>
@@ -177,7 +177,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What did the blanket say when it fell off the bed?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M28-R3-4T4" userLabel="GoodJoke">
-                                <rect key="frame" x="223.5" y="162.5" width="220" height="50"/>
+                                <rect key="frame" x="77.5" y="308.5" width="220" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="220" id="1cu-9m-ZNA"/>
                                     <constraint firstAttribute="height" constant="50" id="oc6-tv-bQl"/>
@@ -210,17 +210,17 @@
             <objects>
                 <viewController id="AJW-XJ-IFy" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IAD-De-Ccl">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oh Sheet!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAj-s0-Eqf">
-                                <rect key="frame" x="295" y="177" width="77" height="21"/>
+                                <rect key="frame" x="149" y="323" width="77" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7oW-tJ-pDH">
-                                <rect key="frame" x="20" y="325" width="34" height="30"/>
+                                <rect key="frame" x="16" y="617" width="34" height="30"/>
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <segue destination="E9q-xy-clr" kind="show" id="9f3-te-hTQ"/>
